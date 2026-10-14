@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preeti Pokharel | Health Intelligence</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+*{font-family:'Plus Jakarta Sans',sans-serif}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+@keyframes blob{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(30px,-50px) scale(1.1)}66%{transform:translate(-20px,20px) scale(0.9)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.float{animation:float 6s ease-in-out infinite}
+.blob{animation:blob 10s infinite}
+.marquee{animation:marquee 20s linear infinite}
+.glass{backdrop-filter:blur(16px);background:rgba(255,255,255,0.7)}
+</style>
+</head>
+<body class="bg-[#fcfcf9]">
+<div class="fixed inset-0 -z-10 overflow-hidden">
+<div class="blob absolute top-0 left-0 w-[600px] h-[600px] bg-blue-200 rounded-full blur-[100px] opacity-60"></div>
+<div class="blob absolute top-0 right-0 w-[600px] h-[600px] bg-purple-200 rounded-full blur-[100px] opacity-60"></div>
+</div>
+<nav class="flex justify-between p-6 max-w-7xl mx-auto glass rounded-full mt-4 border">
+<div class="font-extrabold">Preeti Pokharel — HEALTH INTELLIGENCE</div>
+<a href="Preetipokharel_cv_healthcare.pdf" class="bg-black text-white px-6 py-2 rounded-full text-sm">Resume</a>
+</nav>
+<div class="max-w-7xl mx-auto px-6 mt-16 grid md:grid-cols-2 gap-12">
+<div>
+<div class="bg-white border px-4 py-2 rounded-full text-xs font-bold inline-block">Preeti Pokharel • Available for MNC</div>
+<h1 class="text-6xl font-extrabold mt-6 leading-none">Data that<br><span class="text-blue-600">saves lives</span><br>in cities.</h1>
+<p class="text-gray-500 mt-6">MPH Epidemiology @ MIT WPU • Ex-NUHM Pune • 15 PHCs, 500K population • Power BI, Python, LLM</p>
+<div class="flex gap-3 mt-8">
+<a href="#work" class="bg-black text-white px-8 py-4 rounded-full font-bold">Explore Work →</a>
+<a href="#companies" class="border px-8 py-4 rounded-full font-bold">Target MNCs</a>
+</div>
+</div>
+<div class="relative h-[500px]">
+<div class="float absolute top-0 left-0 bg-white border rounded-3xl p-6 shadow-2xl w-72">
+<p class="text-xs font-bold text-gray-400">PUNE HMIS • Preeti Pokharel</p>
+<div class="mt-4 h-2 bg-gray-200 rounded-full"><div class="h-2 bg-blue-600 rounded-full w-[82%]"></div></div>
+<p class="text-xs mt-4 text-gray-500">Immunization, ANC, NCD tracking</p>
+</div>
+<div class="float absolute top-20 right-0 bg-black text-white rounded-3xl p-6 shadow-2xl w-72">
+<p class="text-xs text-gray-400">AI FORECAST</p>
+<p class="text-2xl font-bold mt-2">12% drop predicted</p>
+<div class="mt-4 bg-gray-800 rounded-xl p-3 text-xs text-green-400">Action: Outreach camp</div>
+</div>
+</div>
+</div>
+<div class="mt-10 bg-black text-white py-4 overflow-hidden">
+<div class="marquee whitespace-nowrap flex gap-12 text-sm font-bold"><span>GOOGLE HEALTH</span><span>•</span><span>UNITEDHEALTH / OPTUM</span><span>•</span><span>WHO</span><span>•</span><span>UNICEF</span><span>•</span><span>ZS ASSOCIATES</span><span>•</span><span>IQVIA</span><span>•</span><span>DELOITTE</span><span>•</span><span>PATH</span><span>•</span><span>PREETI POKHAREL</span></div>
+</div>
+<div id="work" class="max-w-7xl mx-auto px-6 mt-16">
+<div class="bg-white border rounded-3xl p-8 grid md:grid-cols-2 gap-8">
+<div>
+<span class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full">BY PREETI POKHAREL • LIVE</span>
+<h2 class="text-4xl font-extrabold mt-4">Urban Health Intelligence v2.0</h2>
+<p class="text-gray-500 mt-4">Built for NUHM Pune • 12 KPIs • Prophet • LLM briefs</p>
+<div class="flex gap-3 mt-6">
+<a href="https://preet01-bit.github.io/urban-health-intelligence-dashboard/" class="bg-blue-600 text-white px-6 py-3 rounded-full">Live Demo</a>
+<a href="https://github.com/Preet01-bit/urban-health-intelligence-dashboard" class="border px-6 py-3 rounded-full">GitHub</a>
+</div>
+</div>
+<div class="bg-black rounded-2xl p-2"><img src="dashboard.png" class="rounded-xl w-full"></div>
+</div>
+</div>
+<div id="companies" class="max-w-7xl mx-auto px-6 mt-12">
+<h3 class="text-2xl font-extrabold">Preeti Pokharel — Built for these teams</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">Google Health</p><p class="text-xs text-gray-400">Verily</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">UnitedHealth</p><p class="text-xs text-gray-400">Optum</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">WHO</p><p class="text-xs text-gray-400">SEARO India</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">UNICEF</p><p class="text-xs text-gray-400">Health</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">ZS Associates</p><p class="text-xs text-gray-400">Pune</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">IQVIA</p><p class="text-xs text-gray-400">Real World</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">Deloitte</p><p class="text-xs text-gray-400">Health</p></div>
+<div class="bg-white border rounded-2xl p-6"><p class="font-bold">PATH</p><p class="text-xs text-gray-400">Digital Health</p></div>
+</div>
+</div>
+<div class="text-center py-20">
+<h2 class="text-5xl font-extrabold">Preeti Pokharel<br>Let's build healthier cities.</h2>
+<a href="mailto:pokhrelpreeti01@gmail.com" class="inline-block mt-8 bg-black text-white px-10 py-4 rounded-full">pokhrelpreeti01@gmail.com →</a>
+</div>
+</body>
+</html>
